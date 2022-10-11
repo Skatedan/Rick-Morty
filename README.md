@@ -1,5 +1,5 @@
 
-![Img1](/image.png)
+![Img](/image.png)
 
 
 # Rick & Morty Characters viewer
