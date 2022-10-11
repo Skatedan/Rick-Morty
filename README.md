@@ -36,7 +36,7 @@ The pages that display the list of characher on homepage and the favorite ones.
 
 It contains the different types of data used in this application. It's one of the main advantages of using Typescript.
 
-### `Store.tsx`
+### `store.tsx`
 
 It uses `Context` and `reducer` to manage how data flow based on actions, and by that, the state of our application.
 
