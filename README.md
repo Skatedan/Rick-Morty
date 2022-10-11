@@ -1,6 +1,6 @@
 # Rick & Morty Episode viewer
 
-This is a small app that lets you see and like episodes from the show Rick & Morty.
+This is a small app that lets you see and like characters from the show Rick & Morty.
 
 It's made with **Typescript** and **React**, making use of Hooks and Redux toolkit.
 
