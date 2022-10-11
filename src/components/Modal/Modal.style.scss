@@ -1,0 +1,54 @@
+.modal{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    background-color: $color_white;
+    &__description{
+        padding: 10px;
+    }
+    &__image{
+        width: 100%;
+        height: auto;
+    }
+    &__name,
+    &__species,
+    &__type,
+    &__origin,
+    &__location{
+        display: inline-block;
+        font-weight: normal;
+    }
+    label{
+        display:block;
+        font-weight: 600;
+    }
+    &__close{
+        background-color: $color_lblue;
+        position: absolute;
+        top: -5px;
+        right: -5px;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        /* padding: 5px; */
+        border: unset;
+        box-shadow: unset;
+        color: $color_black;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    &__button-preference{
+        display: inline-block;
+        margin: 10px;
+        padding: 15px;
+        background: $color_purple;
+        border-radius: 10px;
+        text-align: center;
+        color: $color_black;
+        text-decoration: unset;
+        border: unset;
+    }
+}

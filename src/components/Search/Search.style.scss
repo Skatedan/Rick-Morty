@@ -1,0 +1,14 @@
+.search{
+    margin: 25px 0;
+    &__field{
+        border-radius: 5px;
+        height: 25px;
+        border: unset;
+        padding: 10px;
+    }
+    &__label{
+        color: $color_black;
+        font-size: 12px;
+        margin: 10px 0;
+    }
+}
