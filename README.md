@@ -8,7 +8,7 @@ It's made with Type **Typescript** script and **React**. I've used the react hoo
 To run it:
 
 ```bash
-git clone https://github.com/Skatedan/Rick-Morty
+git clone https://github.com/Skatedan/Rick-Morty.git
 
 cd rick-morty
 
