@@ -1,4 +1,4 @@
-# Rick & Morty Episode viewer
+# Rick & Morty Characters viewer
 
 This is a small app that lets you see and like characters from the show Rick & Morty.
 
