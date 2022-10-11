@@ -3,10 +3,9 @@
 
 
 # Rick & Morty Characters viewer
+This is a small app that lets you see and add to your favorites the characters from the show Rick & Morty.
 
-This is a small app that lets you see and like characters from the show Rick & Morty.
-
-It's made with **Typescript** and **React**, making use of Hooks and Redux toolkit.
+It's made with Type **Typescript** script and **React**. I've used the react hooks and redux toolkit to store the favorites.
 
 To run it:
 
@@ -22,27 +21,3 @@ npm start
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## /src contents
-
-### `Index.tsx`
-
-The main component which renders the characters and list of prefered ones using `react-router` to route the pages defined on `/pages`.
-
-### Components
-
-Presentational component to define the list of characters brought from the API.
-
-### Pages
-
-The pages that display the list of characher on homepage and the favorite ones.
-
-### `*.interface.tsx`
-
-It contains the different types of data used in this application. It's one of the main advantages of using Typescript.
-
-### `store.tsx`
-
-It uses `Context` and `reducer` to manage how data flow based on actions, and by that, the state of our application.
-
-### `favoritesSlice.ts`
-It used to define a redux toolkit reducers for manage a prefered characters list
