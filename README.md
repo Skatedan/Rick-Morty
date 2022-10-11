@@ -26,7 +26,7 @@ The main component which renders the characters and list of prefered ones using 
 
 ### Components
 
-Presentational component to define the list of episodes brought from the API.
+Presentational component to define the list of characters brought from the API.
 
 ### Pages
 
