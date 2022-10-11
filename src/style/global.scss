@@ -1,0 +1,47 @@
+@import "_variables.scss";
+@import "_mixins.scss";
+
+@import "../components/Character/Character.style.scss";
+@import "../components/Modal/Modal.style.scss";
+@import "../components/Search/Search.style.scss";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; // not neccesary
+   }
+body{
+    background-color: $color_lblue_2;
+    text-align: center;
+    display: block;
+    &.--isOpen{
+        overflow: hidden;
+        &:after{
+            content: "";
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0,0,0,0.5);
+            z-index: 1;
+        }
+    }
+    h1{
+        text-align: center;
+    }
+    a{
+        display: inline-block;
+        margin: 10px;
+        padding: 15px;
+        background: $color_purple;
+        border-radius: 10px;
+        text-align: center;
+        color: $color_black;
+        text-decoration: unset;
+    }
+}
+
