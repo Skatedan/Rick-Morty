@@ -1,6 +1,4 @@
-
 ![Img](/image.png)
-
 
 # Rick & Morty Characters viewer
 This is a small app that lets you see and add to your favorites the characters from the show Rick & Morty.
